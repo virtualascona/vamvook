@@ -1,21 +1,11 @@
 {
- "authors": [
- {
- "name": "virtualascona",
- "email": "virtualascona@gmail.com",
- "homepage": "http://www.virtualascona.com",
- "role": "Developer"
- }
- ],
  "repositories": [
- {
- "type": "vcs",
- "url": "https://github.com/virtualascona/vamvook.git"
- }
- ],
- "autoload": {
- "classmap": [
- "classes"
-]
- }
+        {
+             "url": "https://github.com/virtualascona/vamvook.git",
+            "type": "vcs"
+        }
+    ],
+    "require": {
+       "php": ">=5.3.3"
+    }
 }
