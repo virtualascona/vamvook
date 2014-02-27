@@ -1,11 +1,16 @@
 {
- "repositories": [
+    "repositories": [
         {
-             "url": "https://github.com/virtualascona/vamvook.git",
-            "type": "vcs"
+            "type": "package",
+            "package": {
+                "name": "virtualascona/vamvook",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/virtualascona/vamvook",
+                    "type": "git",
+                    "reference": "origin/master"
+                }
+            }
         }
-    ],
-    "require": {
-       "php": ">=5.3.3"
-    }
+    ]
 }
