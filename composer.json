@@ -1,16 +1,8 @@
 {
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "virtualascona/vamvook",
-                "version": "dev-master",
-                "source": {
-                    "url": "https://github.com/virtualascona/vamvook",
-                    "type": "git",
-                    "reference": "origin/master"
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/virtualascona/vamvook"
         }
     ]
 }
