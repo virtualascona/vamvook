@@ -3,13 +3,13 @@
  {
  "name": "virtualascona",
  "email": "virtualascona@gmail.com",
- "homepage": "www.virtualascona.com",
+ "homepage": "http://www.virtualascona.com",
  "role": "Developer"
  }
  ],
  "repositories": [
  {
- "type": "git",
+ "type": "vcs",
  "url": "https://github.com/virtualascona/vamvook.git"
  }
  ],
